@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+body{
+  background-color: #444;
+}
+
+#header{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  align-items: center;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+}
+
+#header-img{
+  max-width: 50px;
+}
+
+#nav-bar a{
+  text-decoration: none;
+  color: #fff;
+  padding: 14px 20px;
+}
+
+#nav-bar a:hover{
+  background-color: #777;
+  color: black;
+}
+
+@media (max-width: 400px){
+  #header, #nav-bar a{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+}
+
+#titulo{
+  text-align: center;
+  font-family: arvo;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 400px){
+  #titulo{
+    margin-top: 180px;
+  }
+}
+
+hr{
+  border:1px black;
+  background-color:black;
+  height:1px;
+  width:100%
+}
+
+#how-it-works{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+}
+
+.container #desayunos,#almuerzos
+,#postres,#bebidas{
+  flex: 50%;
+}
+
+@media(max-width: 600px){
+  .container{
+    flex-direction: column;
+    
+} 
+}
+
+.sub-titulos{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'arvo' , serif;
+  margin-bottom: 0px;
+}
+
+.grid{
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+
+.grid ul li{
+  font-family: 'Noto Serif', serif;
+  list-style: none;
+  padding: 3px;
+}
+
+#form { 
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+#form #email{
+  background-color: #888;
+  width: 500px;
+  height: 25px;
+  text-align:center;  
+  font-size: 15px;
+}
+
+#email::placeholder{
+  color: #fff;
+  size: 25px;
+  text-transform: uppercase;
+}
+
+#form #submit{
+  margin-top: 10px;
+  width: 20%;
+  
+}

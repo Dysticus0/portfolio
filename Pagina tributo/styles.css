@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-color : #ddd ;
+}
+
+
+#title{
+  dispaly:  flex;
+  justify-content: center;
+  text-align:center;
+  text-transform: uppercase;
+  border-bottom:  solid;
+  border-color: #aaa;
+}
+
+#img-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+#image {
+  padding: 0 60px;
+}
+
+#img-caption{
+  text-align: justify;
+  background-color: #ccc;
+  margin: 5px 60px;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+#tribute-info{
+  margin: 0;
+  background-color: #8484875c;
+}
+
+#tribute-info p{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-size: 18px;
+  margin: 10px 50px;
+  padding: 20px;
+
+}
