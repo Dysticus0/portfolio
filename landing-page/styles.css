@@ -17,7 +17,9 @@ body{
 }
 
 #header-img{
-  max-width: 50px;
+  background: transparent;
+  max-width: 60px;
+  margin: 0;
 }
 
 #nav-bar a{

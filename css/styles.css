@@ -64,6 +64,8 @@ img {
   background-color: #637074;
 }
 
+/* WELCOME SECTION */
+
 #welcome-section{
   display: flex;
   flex-direction: column;
@@ -76,7 +78,14 @@ img {
 #welcome-section h1{
   text-align: left;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 4rem;
+  margin-bottom: 5px;
+}
+
+#welcome-section h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 2.5rem;
   margin-bottom: 5px;
 }
 
@@ -101,18 +110,7 @@ img {
 
 #projects{
   text-align: center;
-  padding: 10rem 2rem;
-  background: var(--main-blue);
-}
-
-@media (max-width: 30.625em) {
-  .projects-section {
-    padding: 6rem 1rem;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
+  padding: 4rem 2rem;
 }
 
 .projects-grid {
@@ -125,8 +123,14 @@ img {
   margin-bottom: 6rem;
 }
 
+@media (max-width: 400px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .project-img {
-  height: calc(100% - 6.8rem);
+  height: calc(100% - 5.8rem);
   width: 100%;
   object-fit: cover;
 }
@@ -138,8 +142,8 @@ img {
 } 
 
 .project-title {
-  font-size: 2rem;
-  padding: 2rem 0.5rem;
+  font-size: 35px;
+  padding: 15px 10px;
 }
 
 /*CONTACTO*/
@@ -149,7 +153,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   background-color: #001021;
   color: #88292F;
